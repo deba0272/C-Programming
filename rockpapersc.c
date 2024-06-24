@@ -26,7 +26,6 @@ int main() {
     int result;
     srand(time(NULL));
     n = rand() % 100;
-
     if (n < 33)
         c = 's';
     else if (n < 66)
